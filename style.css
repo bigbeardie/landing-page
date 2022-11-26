@@ -1,0 +1,72 @@
+.header { 
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+  }
+
+ul {
+    color: #e5e7eb;
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    gap: 16px;
+  }
+  
+a {
+    color: white;
+    text-decoration: none;
+  }
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+
+
+/* needs a placeholder for image at correct size
+make sign up button blue*/
+
+.sect1 {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  flex-grow: 1;
+  text-align: left;
+}
+
+h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: extra-bold;
+  flex-wrap: wrap;
+}
+
+.right-1 {
+  margin-left: 75px;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 4px;
+}
+
+#run {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px;
+  }
