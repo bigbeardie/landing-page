@@ -30,10 +30,6 @@ a {
 }
 
 
-
-/* needs a placeholder for image at correct size
-make sign up button blue*/
-
 .sect1 {
   display: flex;
   background-color: #1f2937;
@@ -50,7 +46,7 @@ make sign up button blue*/
 h1 {
   color: #f9faf8;
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight:bolder;
   flex-wrap: wrap;
 }
 
@@ -69,4 +65,56 @@ button {
   margin-right: auto;
   margin-left: auto;
   border-radius: 15px;
-  }
+}
+
+.information {
+  margin: 50px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: bolder;
+  margin: 25px;
+}
+
+.perfect {
+  display: flex;
+  justify-content:space-evenly;
+  align-content: center;
+  text-align: center;
+}
+
+.para {
+  max-width: 200px;
+}
+
+#fill {
+  max-width: 200px;
+  border-radius: 15px;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+  text-align:left;
+  
+}
+
+.para2 {
+  max-width: 50%;
+}
+
+cite {
+  display: block;
+  font-style: italic;
+  text-align: right;
+  font-weight: bold;
+}
